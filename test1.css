@@ -4,6 +4,10 @@ html,body{
 	background: #ebebeb;
 	background-image: url(C:\Users\Administrator\Desktop\我才是临时文件好吗\图片\火女.jpg);
 }
+.content-warp{
+	background-image: url(http://www.dota2.com.cn/resources/jpg/130927/10251380282664698.jpg);
+	background-size: auto;
+}
 
 .main-header{
 	text-align: center;

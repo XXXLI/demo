@@ -1,0 +1,169 @@
+html,body{
+	color: #505050;
+	line-height: 1.75em;
+	background: #ebebeb;
+	background-image: url(C:\Users\Administrator\Desktop\我才是临时文件好吗\图片\火女.jpg);
+}
+
+.main-header{
+	text-align: center;
+	padding: 45px 0;
+	background: #ffffff;
+
+}
+
+.main-header.branding{
+	font-size: 3.5em;
+	color: #303030;
+}
+
+a{
+	color: #e67e22;
+	outline: none;
+	text-decoration: none;
+}
+
+.main-header.branding img{
+	max-width: 100%
+
+}
+
+.main-navigation{
+	text-align: center;
+	background: #ffffff;
+	border-top: 1px solid #ebebeb;
+	border-bottom:3px solid #e1e1e1;
+	margin-bottom: 35px;
+
+}
+.main-navigation .menu{
+	padding: 0;
+	margin: 0;
+	background-color: #bde5f4;
+
+}
+
+.main-navigation .menu li.nav-current{
+	border-bottom: 3px solid #224de6;
+	margin-bottom: -2px;
+
+}
+
+.main-navigation .menu li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+
+.main-navigation .menu li a{
+	color: #fafafa;
+	line-height: 4.5em;
+	display: block;
+	padding: 0 30px;
+	font-size: 20px;
+}
+.a2{
+	padding: 35px;
+	background: #ffffff;
+	margin-bottom: 35px;
+	position: relative;
+	overflow: hidden;
+}
+.a2 .a2-head{
+	text-align: center;
+}
+.a2 .a2-head .a2-title{
+	margin: 0;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+.a2 .a2-head .a2-title .a{
+	color: #303030;
+}
+.a2 .a2-head .a2-pete{
+	color: #959595;
+	margin: 14px;
+}
+.a3{
+	font: 400 18px/1.62 "Georgia, serif";
+	color: #444343;
+}
+.a3 p{
+	margin-top:0;
+	margin-bottom: 1.26em;
+}
+.btn-default{
+	background: #53b5df;
+	color: #ffffff;
+}
+.a2 .a2-footer{
+	margin-top: 30px;
+	border-top: 0px solid #ebebeb;
+	padding: 21px 0 0;
+}
+.a2 .a2-footer .tag-list{
+	color: #959595;
+	line-height: 28px;
+}
+.sidbar .widget{
+	background: #ffffff;
+	padding: 21px 30px;
+}
+.widget{
+	margin-bottom: 35px;
+}
+.widget .title{
+	margin-top: 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 21px;
+	position: relative;
+}
+.widget .tag-could a{
+	border: 1px solid #ebebeb;
+	padding: 2px 7px;
+	color: #f00;
+	line-height: 1.5em;
+	display: inline-block;
+	margin: 0 7px 7px 0;
+}
+.ft{
+	background-color: #bde5f4;
+}
+.ft h4{
+	color: #5071e6;
+}
+#login-area{
+	position:absolute;
+	right: 0px;
+	top:0px;
+}
+#close{
+	background:url(img/close.png) no-repeat;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	position:absolute;
+	right:5px;
+	top:15px;
+	text-indent:-999em;
+	}
+#mask{
+	background-color:#ccc;
+	opacity:0.5;
+	filter: alpha(opacity=50);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1000;
+	}
+#login{
+	position:fixed;
+	z-index:1001;
+	}
+.loginCon{
+	position:relative;
+	width:670px;
+	height:380px;
+	background:url(img/loginBg.png) #2A2C2E center center no-repeat;
+	}
